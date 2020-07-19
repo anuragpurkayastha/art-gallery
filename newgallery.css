@@ -1,0 +1,52 @@
+/*	New Gallery Stylesheet 	*/
+
+.carousel-indicators:hover 	{
+	cursor: pointer;
+}
+
+footer 	{
+	padding: 3px 10px;
+}
+
+form 	{
+	border: 1px solid #9d9d9d;
+	box-shadow: 3px 3px 7px #c1c1c1;
+	padding: 20px 20px;
+}
+
+form 	ul 	{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+label.required::after{
+	content: "*";
+	color: red;
+}
+
+.carousel-inner 	{
+	height: 300px !important;
+	background-color: #222121;
+}
+
+.carousel-img 	{
+	height: 100%;
+	margin: auto;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.summary-info 	{
+	background: rgba(191, 191, 191, 0.15);
+}
+
+@media (min-width: 768px){
+	.borderRight-md-up 	{
+		border-right: 1px solid #dee2e6;
+	}
+}
