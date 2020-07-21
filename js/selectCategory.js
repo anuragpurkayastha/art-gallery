@@ -31,7 +31,12 @@ $(function(){
 				data: 'category='+selectedCategory.toLowerCase(),
 				dataType: 'html',
 				success: function(result){
-					$( '#images' ).html(result);
+					if(result == '1'){
+						console.log('User exists');
+					}
+					else{
+						console.log('Username does not exist');
+					}
 				}
 		});
 		

@@ -16,13 +16,13 @@
 					<div class="form-group">
 						<label class="required form-control-label font-weight-bold" for="username">Username</label>
 						<input id='usernameInput' class="form-control" type="text" id="username" name="username" placeholder="Enter username" required />
-						<span id="username-availability" class='text-success'></span>
+						<span id="username-availability"></span>
 					</div>
 					<div class="form-group">
 						<label class="required form-control-label font-weight-bold" for="password">Password</label>
 						<input class="form-control" type="password" id="password" name="password" placeholder="Enter password" required />
 					</div>
-					<button class="btn btn-primary" type="submit">Register</button>
+					<button id='submit-btn' class="btn btn-primary" type="submit">Register</button>
 				</form>
 			</div>
 		</main>

@@ -15,7 +15,11 @@
 	// Run the query
 	$records = mysqli_query($db, $query);
 	$result = mysqli_fetch_array($records);
-	$stored_pass = $result['password'];
+	if(!empty($result)):
+		$stored_pass = $result['password'];
+	else:
+		$stored_pass = null;
+	endif;
 	
 	// If the login is successful, then start a session and assign 'username' to the session array.
 	if(password_verify($password, $stored_pass)):

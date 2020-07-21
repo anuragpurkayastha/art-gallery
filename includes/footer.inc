@@ -27,7 +27,7 @@
 
 			<footer class="d-flex justify-content-between border-top">
 				<p>&copy; Anurag Purkayastha</p>
-				<a class="nav-link" href="http://home.localhost">Back to Projects</a>
+				<a href="http://home.localhost">Back to Projects</a>
 				<p>2020</p>
 			</footer>
 
