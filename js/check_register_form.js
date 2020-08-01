@@ -8,7 +8,7 @@ $(function(){
 		let username_regex = /^[a-zA-Z0-9]+$/;	//	Username regex to only allow alphanumeric characters.
 		
 		//	If the username does not have alphanumeric characters then disable register button and show message.
-		if(!username_regex.test(usernameInput)){
+		if(!username_regex.test(usernameInput) && usernameInput != ''){
 			$( '#username-availability' ).text('Username must contain only alphanumeric characters!');
 			$( '#username-availability' ).addClass('text-danger');
 			$( '#submit-btn' ).prop('disabled',true);
